@@ -1,0 +1,51 @@
+<section @fade class="vh-100 gradient-custom" class="scroll">
+  <div class="container py-5 h-80">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem">
+          <div class="card-body p-5 text-center">
+            <div class="mb-md-5 mt-md-4 pb-5">
+              <h2 class="fw-bold mb-2 text-uppercase">Registro</h2>
+              <p class="text-white-50 mb-5">
+                Para ver mi hoja de vida debes registrarte
+              </p>
+              <form class="needs-validation" novalidate [formGroup]="registro" (ngSubmit)="onSubmit()">
+                <div class="form-outline form-white mb-4">
+                  <input class="form-control" type="text" id="NombreCompleto" class="form-control form-control-lg" formControlName="NombreCompleto" [ngClass]="{'is-invalid': nameError && registro.controls}"/>
+                  <div *ngIf="nameError" class="text-danger">El nombre completo es requerido</div>
+                  <label class="form-label" for="NombreCompleto">Nombre Completo</label>
+                </div>
+  
+                <div class="form-outline form-white mb-4">
+                  <input class="form-control" type="email" id="typeEmailX" class="form-control form-control-lg" formControlName="Email" required [ngClass]="{'is-invalid': emailError && registro.controls}" />
+                  <div *ngIf="emailError" class="text-danger">No es un mail valido</div>
+                  <label class="form-label" for="typeEmailX">Email</label>
+                </div>
+  
+                <div class="form-outline form-white mb-4">
+                  <input class="form-control" type="password" id="typePasswordX" class="form-control form-control-lg" formControlName="Password" required [ngClass]="{'is-invalid': password  && registro.controls}"/>
+                  <div *ngIf="password" class="text-danger">Debe ingresar su password de 7 a 15 caracteres al menos</div>
+                  <label class="form-label" for="typePasswordX">Password</label>
+                </div>
+  
+                <button class="btn btn-outline-light btn-lg px-5" type="submit">
+                  Registrarse
+                </button>
+  
+                <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                  <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                  <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                </div>
+              </form>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

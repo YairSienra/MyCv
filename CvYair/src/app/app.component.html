@@ -1,0 +1,12 @@
+
+<div @fade class="container" *ngIf="!u.flag">
+  <button routerLink="/auth/login" type="button" class="btn btn-dark" >Login</button>
+  <button routerLink="/auth/registro" type="button" class="btn btn-dark">Registro</button>
+</div>
+
+<app-navBar @fade ></app-navBar>
+<app-Home @fade ></app-Home>
+
+<router-outlet></router-outlet>
+
+

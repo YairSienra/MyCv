@@ -1,0 +1,21 @@
+
+<div @fade  class="container">
+    <section class="sobremi">
+      <img src="yair.png" class="img">
+      <h2 class="title">{{data?.nombreCompleto}}</h2>
+       <h6 class="sub-title">{{data?.subtitulo}}</h6>
+      <p class="text">{{data?.sobreMi}}</p>
+    </section>
+</div>
+<div class="videoContainer">
+  <h3 class="title" style="text-align: center;">Soluciones informaticas para particulares</h3>
+  <vg-player>
+    <video loop autoplay #media src="../../../assets/videobanner.mp4" [vgMedia]="$any(media)" height="240" width="120%" ></video>
+  </vg-player>
+</div>
+
+
+
+
+
+

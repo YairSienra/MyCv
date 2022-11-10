@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Space+Mono&display=swap');
+
+.title {
+  margin-top: 3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-family: "Orbitron";
+}
+.span {
+  font-size: 1rem;
+  font-family: "Orbitron";
+}
+.container::backdrop{
+margin: 0 auto;
+margin-right: 5rem;
+
+}
+
+.title2 {
+  text-align: center;
+  text-decoration-line: underline;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  font-family: "Orbitron";
+}
+
+.puesto{
+  font-family: "Orbitron";
+  font-size: 15px;
+}

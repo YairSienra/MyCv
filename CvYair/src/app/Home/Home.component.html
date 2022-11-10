@@ -1,0 +1,28 @@
+<div class="container" *ngIf="u.flag">
+<section  id="sobreMi">
+  <app-sobremi class="sobreMi" [datos]="data"></app-sobremi>
+</section>
+<section id="estudios">
+  <app-estudios [datos]="data"></app-estudios>
+</section>
+<section id="exp">
+  <app-experiencia [datos]="data"></app-experiencia>
+</section>
+<section id="skills">
+  <app-skills [datos]="data"></app-skills>
+</section>
+</div>
+
+
+  <footer class="fo" *ngIf="u.flag">
+    <div class="footer">
+    <button class="boton" (click)="openDialog()">Contactar</button>
+    <button id="link" class="boton" onclick="location.href = 'https://www.linkedin.com/in/yair-sienra-b94193195/'">Linkedin</button>
+    <button class="boton" onclick="location.href = 'https://github.com/YairSienra'">GitHub</button>
+    <button class="boton" (click)="u.cerrarSesion()">Cerrar Sesion</button>
+    </div>
+  </footer>
+
+
+
+

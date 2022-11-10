@@ -1,0 +1,25 @@
+
+
+  <nav class="navBar" *ngIf="u.flag">
+      <button (click)="toSobreMi()" (mouseover)="showPic(true)" (mouseout)="showPic(false)" class="button">Sobre Mi</button>
+      <button (click)="toExp()" (mouseover)="showImage2=true" (mouseout)="showImage2=false" class="button">Expeciencia Laboral</button>
+      <button  (click)="toSkills()" (mouseover)="showImage3=true" (mouseout)="showImage3=false" class="button">Skills</button>
+      <button  (click)="toEstudios()" (mouseover)="showImage4=true" (mouseout)="showImage4=false" class="button">Estudios</button>
+  </nav>
+
+
+  <div class="cajaBlanca" style="background-color: white;" *ngIf="u.flag">
+      <img  class="image0" src="dev.jpg" *ngIf="!showImage && !showImage2 && !showImage3 && !showImage4">
+      <img  class="image1" src="aboutme.jpg" *ngIf="showImage">
+      <img  class="image2" src="exp.jpg" *ngIf="showImage2">
+      <img  class="image3" src="skills.jpg" *ngIf="showImage3">
+      <img  class="image4" src="estudios2.jpg" *ngIf="showImage4">
+  </div>
+
+
+
+
+
+
+
+

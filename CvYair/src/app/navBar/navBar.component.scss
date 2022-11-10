@@ -1,0 +1,126 @@
+
+@media screen and (min-width:480px){
+  .navBar {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px 15px rgb(36, 35, 35);
+    top: 18rem;
+    position: relative;
+  }
+}
+/* .navBar{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 0.0rem;
+    gap: 0rem;
+    position: relative;
+    top: 18rem;
+    box-shadow: 20px 20px 50px 15px rgb(36, 35, 35);
+  } */
+
+.navBar {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px 15px rgb(36, 35, 35);
+  top: 18rem;
+  position: relative;
+}
+
+
+.button {
+  padding: 0.9rem;
+  border: 0rem;
+  background-color: whitesmoke;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.5s
+}
+
+.button:hover {
+  background-color: #212529;
+  color: white;
+}
+
+
+
+.opa:hover  .img{
+  opacity: 0;
+}
+
+
+
+.cajaBlanca {
+  height: 20rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: -14rem;
+  margin-top: -5.3rem;
+
+}
+.cajaNegra{
+background-color: black;
+width: 12000px;
+height: 335px;
+margin-top: -7rem;
+opacity: 0.5;
+margin-bottom: -12rem;
+}
+
+.image0{
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../../images/dev.jpg);
+  width: 100%;
+  height: 110%;
+}
+
+
+.image1 {
+  background-image: url(../../images/aboutme.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 110%;
+
+}
+
+.image2 {
+  background-image: url(../../images/exp.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 110%;
+
+  }
+
+.image3 {
+  background-image: url(../../images/skills.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 110%;
+}
+.image4 {
+  background-image: url(../../images/estudios2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 110%;
+  overflow:hidden;
+  opacity: 1;
+  transition: 0.5;
+}
+
+.image4:hover {
+  opacity: 0.5;
+
+}
+
+.image1:hover{
+  width: 118.8rem;
+}
+
+
+

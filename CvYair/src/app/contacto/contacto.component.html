@@ -1,0 +1,23 @@
+<form class="form">
+  <div class="inputs1">
+    <mat-form-field class="example-full-width"  appearance="fill" >
+      <mat-label>Nombre Completo</mat-label>
+      <input type="text" matInput  placeholder="Nombre Completo" [(ngModel)]="comentario.nombreCompleto" [ngModelOptions]="{standalone: true}"/>
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill"  >
+      <mat-label>Email</mat-label>
+      <input type="text" matInput  placeholder="Email" [(ngModel)]="comentario.email" [ngModelOptions]="{standalone: true}"/>
+    </mat-form-field>
+    <div class="t1">
+      <mat-form-field class="example-full-width" appearance="fill" >
+        <mat-label>Comentario</mat-label>
+        <textarea class="textArea" type="text" matInput  placeholder="Comentario" [(ngModel)]="comentario.texto" [ngModelOptions]="{standalone: true}"></textarea>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div mat-dialog-actions class="but">
+    <button mat-button [mat-dialog-close]="true" (click)="enviarComentario()">Enviar</button>
+    <button mat-button [mat-dialog-close]="false">Cancelar</button>
+  </div>
+</form>

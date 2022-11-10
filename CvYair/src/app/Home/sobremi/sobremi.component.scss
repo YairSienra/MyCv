@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Space+Mono&display=swap');
+
+  .sobremi {
+    background: white;
+    //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Orbitron";
+   }
+
+   .container {
+     text-align: center;
+     width: 50%;
+     font-family: "Orbitron";
+   }
+
+   .title{
+     margin-bottom: 2rem;
+   // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-family: "Orbitron";
+   }
+
+   .sub-title {
+    margin-bottom: 2rem;
+    font: menu;
+    font-family: "Orbitron";
+   }
+
+
+
+   .img {
+     background-image: url(../../../images/yair.png);
+      width: 100%;
+     // padding-top: 80px;
+      background-image: none;
+      padding-left: 20%;
+
+   }
+
+
+.v{
+  margin: 0 auto;
+  width: 1080;
+
+}
+
+.videoContainer{
+  margin-top: 12rem;
+  margin-bottom: -18rem;
+
+}

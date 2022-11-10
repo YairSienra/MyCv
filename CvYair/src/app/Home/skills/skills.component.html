@@ -1,0 +1,11 @@
+<h5 class="title3">Skills</h5>
+<div class="container" >
+  <section class="skill">
+      <div *ngFor="let s of data?.skills.$values">
+        <img class="img" src="data:image/jpeg;base64,{{s.imageSkills}}">
+          <p class="image">{{s.nameSkill}}
+          </p>
+      </div>
+  </section>
+</div>
+

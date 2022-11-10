@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Space+Mono&display=swap');
+
+.container {
+  background-color: white;
+  width: 100%;
+  font-family: "Orbitron";
+}
+
+.Estudios {
+  display: grid;
+  gap:2rem;
+  text-align: center;
+  grid-template-columns: repeat(2, 2fr);
+
+}
+
+.title {
+  text-align: center;
+  text-decoration-line: underline;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  font-family: "Orbitron";
+}
+
+.line2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Orbitron";
+}
+.title1{
+width: 50%;
+margin: 0 auto;
+background-image: url(../../../documents/title1.jpg);
+}
+
+.title2 {
+  background-image: url(../../../documents/title2.jpg);
+width: 50%;
+margin: 0 auto;
+
+}
+
+.title3{
+  background-image: url(../../../documents/title3.jpg);
+  width: 50%;
+  margin-top : 5rem;
+
+}
+
+.instu{
+  background-image: url(../../../imageslogos/kennedy.png);
+  width: 30%;
+}
+.instu2 {
+  background-image: url(../../../imageslogos/provincia.png);
+  width: 30%;
+  background-image: none;
+  padding-top: 20px;
+}
+
+.instu3 {
+  background-image: url(../../../imageslogos/colegio.png);
+  width: 15%;
+  background-image: none;
+
+}
+.instu4 {
+  background-image: url(../../../imageslogos/primaria.jpg);
+  width: 30%;
+  background-image: none;
+  padding-top: 16px;
+}
+

@@ -1,0 +1,11 @@
+<h5 class="title2">Experiencia Laboral</h5>
+<div @fade class="container">
+  <section class="Expeciencia">
+      <div  class="exp" *ngFor="let exp of data?.expLaborales.$values">
+        <h4 class="title">{{exp.nombreEmpresa}}   <span class="span">{{exp.fechaIngreso  | date: 'dd/MM/yyyy'}} - {{exp.fechaEgreso  | date: 'dd/MM/yyyy'}}</span></h4>
+            <h6 class="puesto">{{exp.puesto}}</h6>
+            <p>{{exp.texto}}</p>
+      </div>
+  </section>
+</div>
+

@@ -1,0 +1,22 @@
+.inputs1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 16em);
+  place-items: center;
+
+}
+.but {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.t1{
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, 16em);
+  margin-top: 2rem;
+}
+
+
+
+
+
+

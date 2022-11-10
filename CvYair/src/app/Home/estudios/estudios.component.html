@@ -1,0 +1,28 @@
+<h5 class="title">Estudios</h5>
+<div class="container">
+  <section class="Estudios">
+    <div *ngFor="let x of data?.estudios.$values">
+       <p class="line">{{x.institucion }} - {{x.estado}}</p>
+       <img  src="kennedy.png" class="instu" *ngIf="x.institucion == 'UNIVERSITARIO'">
+       <img  src="provincia.png" class="instu2" *ngIf="x.institucion == 'TERCIARIO'">
+       <img  src="colegio.png" class="instu3" *ngIf="x.institucion == 'SECUNDARIA'">
+       <img  src="primaria.jpg" class="instu4" *ngIf="x.institucion == 'PRIMARIA'">
+    </div>
+  </section>
+
+  <div class="line2">
+    <div>
+       <img class="title1" src="title1.jpg">
+       <p>ASP.NET Clean Architecture y Domain Driven Design (DDD)</p>
+    </div>
+      <div>
+        <img class="title2" src="title2.jpg">
+      <p>Master en ASP.NET Core y React Hooks en Azure</p>
+      </div>
+      <div>
+        <img class="title3" src="title3.jpg">
+      <p>Curso de Blazor con Visual Studio 2022</p>
+      </div>
+  </div>
+</div>
+

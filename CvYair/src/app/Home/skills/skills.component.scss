@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Space+Mono&display=swap');
+
+.container {
+  background-color: white;
+  margin-bottom: 5rem;
+
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem,1fr));
+  gap: 2rem;
+  text-align: -webkit-center;
+  font-family: "Orbitron";
+}
+
+.img {
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+
+}
+
+.javascript{
+margin-top: 2rem;
+height: 50%; width: 50%;
+//background-image: url(../../../imageslogos/js.png)
+
+}
+.mongo{
+margin-top: 2rem;
+height: 50%; width: 50%;
+background-image: url(../../../imageslogos/mongo.png);
+background-image: none;
+}
+.ts{
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/ts.png);
+}
+.ex{
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/ex.png);
+  background-image: none;
+
+}
+.node {
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/node.png);
+  background-image: none;
+}
+.angular{
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/angular.png);
+}
+.html{
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/html.png);
+}
+
+.css {
+
+  margin-top: 2rem;
+  height: 50%; width: 70%;
+  background-image: url(../../../imageslogos/css.png);
+
+}
+
+.sass {
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/sass.png);
+}
+
+.net{
+
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/.net.png);
+
+}
+.core {
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/core.jpg);
+}
+.ef {
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/core2.png);
+}
+
+.sql {
+  margin-top: 2rem;
+  height: 50%; width: 50%;
+  background-image: url(../../../imageslogos/sql.png);
+}
+
+.title3 {
+  text-align: center;
+  text-decoration-line: underline;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  font-family: "Orbitron";
+}
+
